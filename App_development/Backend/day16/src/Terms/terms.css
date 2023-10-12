@@ -1,0 +1,56 @@
+/* CSS for Privacy Policy Component */
+
+.privacy-policy {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .privacy-policy h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .privacy-policy p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    color: #2b2727;
+  }
+  
+  .privacy-policy ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .privacy-policy a {
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  .privacy-policy a:hover {
+    text-decoration: none;
+  }
+  
+  .privacy-policy .contact-email {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .privacy-policy .effective-date {
+    margin-top: 10px;
+    font-style: italic;
+    color: #777;
+  }
+  
+  .privacy-policy .company-info {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #888;
+  }
+  

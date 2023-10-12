@@ -1,0 +1,189 @@
+/* Reset margin and padding for body and html */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('https://wallpapercave.com/wp/wp4063162.jpg');
+    background-size: cover;
+    background-color: #e4e5ef;
+    background-attachment: fixed;
+  }
+
+  /* Style for the main container */
+  .ccontainer {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #6b1e7e;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(121, 96, 96, 0.1);
+    width: 99vw; /* Set width to 100% of viewport width */
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .container-width {
+    flex-grow: 0.9; /* This allows it to grow and occupy remaining horizontal space */
+    width: 100%; /* This ensures it takes up the full width */
+  }
+  
+  
+  
+  .react-calendar {
+    width: 100%; /* Ensure the calendar takes up the full width of its container */
+  }
+  
+    
+    
+    
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    
+    
+    .entry-form-box {
+      background-color: #4c1f4eea;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0px 2px 4px rgba(182, 174, 174, 0.1);
+      width: 100%;
+    }
+    
+    /* Style for the entry form */
+    .entry-form label {
+      display: block;
+      margin-bottom: 6px;
+    }
+    
+    .entry-form input[type="date"],
+    .entry-form input[type="time"],
+    .entry-form textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 12px;
+      border: 1px solid #000000;
+      border-radius: 4px;
+      background-color: #000000;
+    }
+    
+    /* Style for Start Time and End Time */
+    .entry-form input[type="time"],
+    /* Style for Description */
+    .entry-form textarea {
+      background-color: #b19db4; /* Background color for input fields */
+    }
+    
+    /* Style for the "Add Entry" button */
+    .entry-form button {
+      background-color: #3b1a53;
+      color: #444e51;
+      border-color: #000000;
+      border-radius: 2.3px;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size: 16px; /* Font size */
+    }
+    
+    .entry-form button:hover {
+      background-color: #aac4d4;
+      color: #415054;
+    }
+    
+    /* Style for the entries box */
+    .entries-box {
+      background-color: #2e1332;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0px 2px 4px rgba(226, 220, 220, 0.1);
+      width: 100%;
+    }
+    
+    /* Style for the list of entries */
+    .entries h2 {
+      font-size: 18px;
+      margin-top: 20px;
+    }
+    
+    .entries ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    .entries li {
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #7b15a0;
+      border-radius: 4px;
+      background-color: #8a4195;
+    }
+    
+    
+  
+    /* Basic.css */
+  
+  /* Style for the entire filter container */
+  .filter-container {
+    background-color: #1a1e53;
+    color:#856a89;
+    padding: 40px;
+    border-radius: 1px;
+    margin-bottom: 19px;
+    display: flex; /* Use flex display to align filter elements horizontally */
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  
+  .filter-form {
+    display: flex;
+    flex-direction: column; /* Change from "row" to "column" */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 10px; /* Add some spacing between filter components */
+    flex-grow: 1;
+    color: #5f6172;
+}
+  .filter-form label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .filter-form input[type="text"] {
+    padding: 5px;
+    border: 1px solid #3f4652;
+    color: #000000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    flex-grow: 1;
+  }
+  
+  /* Style for individual filter inputs */
+  .filter-form input[name="selectedDate"],
+  .filter-form input[name="selectedProject"],
+  .filter-form input[name="selectedTask"] {
+    flex-basis: calc(33.33% - 10px);
+     /* Adjust based on your desired width */
+     background-color: #9d9fb4;
+  }
+  /* Basic.css */
+  
+  /* Style for the entire filter container */
+  .filter-container {
+    background-color: #461a53;
+    padding: 10px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
