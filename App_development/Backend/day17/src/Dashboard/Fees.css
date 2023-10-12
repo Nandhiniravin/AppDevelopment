@@ -1,0 +1,120 @@
+.feed {
+    font-family: Arial, sans-serif;
+
+    background-color:#62186c;
+    background-size: cover;
+    background-position: center;
+
+
+  }
+  
+  .myse {
+    margin-bottom: 220px;
+    color: rgb(21, 23, 27);
+    text-align: center;
+    margin-left: 50px;
+    font-feature-settings: "abvf";
+    font-family:cursive;
+    top:10px;
+    text-decoration:unset;
+    text-align: center;
+  }
+  .feel{
+    text-align: center;
+    margin-left: 90px;
+  }
+  .inp_st {
+    margin-bottom: 19px;
+    padding: 6px;
+    width: 450px;
+    border-radius: 8px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    top: 150px;
+    left: 150px;
+    right: 250px;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  .loo{
+    padding: 5px 10px;
+    background-color: #742e83;
+    border-radius: 10px;
+    top:10px;
+    left:100px;
+    border-color: #000;
+    color: rgb(220, 206, 206);
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    align-items: center;
+  }
+  
+  .loo:hover {
+    background-color: #7b2e83;
+  }
+  .loo1{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #4f1d5c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+  }
+.delq{
+    padding-left: 20px;
+}
+  
+  .loo1:hover {
+    background-color: #5e296d;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #613071;
+    color: white;
+    text-decoration: underline;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  /* Styles for the component */
+  .FeesManagement {
+    margin: 20px;
+  }
+  
+  .FeesManagement input[type="text"] {
+    width: 200px;
+  }
+  
+  .FeesManagement button {
+    margin-left: 10px;
+  }
+  
+  .FeesManagement table {
+    margin-top: 20px;
+  }
+  
+  .FeesManagement th,
+  .FeesManagement td {
+    text-align: left;
+  }
+  .loo{
+align-items: center;  }
+
+.ter{
+    color: rgb(181, 191, 200);
+    border-color: #7b2e83;
+    background-color: #000;
+    
+}
